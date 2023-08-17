@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>h7.1a</title>
+    <style>
+        body {
+          background-color: #f5f5f5;
+          max-width: 55em;
+        }
+
+        .container {
+          height: 46em;
+          width: 40em;
+          left: 7em;
+          position: fixed;
+          padding: 2em;
+          margin-top: 5em;
+          background-color: #6699CC;
+          border-style: solid;
+        }
+
+        button {
+          height: 5em;
+          width: 48em;
+          padding: 0.5em;
+          margin-bottom: 0.5em;
+          background-color: #99CCFF;
+          color: #000000;
+          font-family: sans-serif;
+          border: 0.2em solid #000000;
+          text-align: left;
+        }
+
+        span {
+          font-weight: bolder;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <button onclick="sumNumInRange()"><span>Задание 1:</span> Подсчитать сумму всех чисел в
+        заданном пользователем диапазоне.</button>
+      <button onclick="twoNumbers()"><span>Задание 2:</span> Запросить 2 числа и найти только
+        наибольший общий делитель.</button>
+      <button onclick="personNumber()"><span>Задание 3:</span> Запросить у пользователя число
+        и вывести все делители этого числа.</button>
+      <button onclick="numberOfDigits()"><span>Задание 4:</span> Определить количество цифр в
+        введенном числе</button>
+      <button onclick="tenNumbers()"><span>Задание 5:</span> Запросить у пользователя 10
+        чисел и подсчитать, сколько он ввел положительных, отрицательных и нулей.
+        При этом также посчитать, сколько четных и нечетных. Вывести статистику
+        на экран. Учтите, что достаточно одной переменной (не 10) для ввода чисел
+        пользователем.</button>
+      <button onclick="calculator()"><span>Задание 6:</span> Зациклить калькулятор. Запросить
+        у пользователя 2 числа и знак, решить пример, вывести результат и спросить,
+        хочет ли он решить еще один пример. И так до тех пор, пока пользователь
+        не откажется.</button>
+      <button onclick="shiftNumber()"><span>Задание 7:</span> Запросить у пользователя число
+        и на сколько цифр его сдвинуть. Сдвинуть цифры числа и вывести результат
+        (если число 123456 сдвинуть на 2 цифры, то получится 345612).</button>
+      <button onclick="showWeekdays()"><span>Задание 8:</span> Зациклить вывод дней недели
+        таким образом: «День недели. Хотите увидеть следующий день?» и так до
+        тех пор, пока пользователь нажимает OK. </button>
+      <button onclick="multiplicationTable()"><span>Задание 9:</span> Вывести таблицу умножения для всех
+        чисел от 2 до 9. Каждое число необходимо умножить на числа от 1 до 10.</button>
+      <button onclick="gameNumbers()"><span>Задание 10:</span> Игра «Угадай число».</button>
+    </div>
+
+    <script type="text/javascript" src="script7.1a.js">
+    </script>
+  </body>
+</html>
